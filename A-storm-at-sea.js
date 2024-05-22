@@ -46,3 +46,5 @@ function removeSmallest(n, arr) {
   }
   return resultArr
 }
+
+// or
