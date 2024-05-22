@@ -31,3 +31,6 @@ Examples:
   removeSmallest 9 [1,2,3,4,5] = []
   removeSmallest 2 [1,2,1,2,1] = [2,2,1]
 */
+
+
+// Solution
