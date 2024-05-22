@@ -34,3 +34,15 @@ Examples:
 
 
 // Solution
+
+function removeSmallest(n, arr) {
+  if (n <= 0) return arr
+
+  let resultArr = Array.from(arr);
+  for (let i = n; n > 0; n--) {
+    let lowest = Math.min(...resultArr);
+    let index = resultArr.indexOf(lowest);
+    resultArr.splice(index, 1);
+  }
+  return resultArr
+}
